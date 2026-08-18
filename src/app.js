@@ -56,7 +56,6 @@ app.use("/api/prescriptions", require("./routes/prescriptionRoutes"));
 app.use("/api/reports", require("./routes/reportRoutes"));
 app.use("/api/search", require("./routes/searchRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
-app.use("/api/activity-logs", require("./routes/activityLogRoutes"));
 
 // =====================================================
 // 404
